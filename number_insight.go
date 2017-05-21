@@ -62,7 +62,7 @@ func (c *Client) NumberInsightStandard(number string, opts ...Option) (resp *Num
 	params := optParams(opts...)
 	params.Set("number", number)
 	resp = new(NumberInsightStandardResp)
-	return resp, c.request("GET", "/ni/advanced/json", params, resp)
+	return resp, c.request("GET", "/ni/standard/json", params, resp)
 }
 
 // NumberInsightAdvancedResp is returned from the number insight advanced API
