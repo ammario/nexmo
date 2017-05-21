@@ -1,10 +1,15 @@
+# nexmo
+An idiomatic Go [nexmo](https://nexmo.com) library
+
+
+[![GoDoc](https://godoc.org/github.com/ammario?status.svg)](https://godoc.org/github.com/ammario/nexmo)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [nexmo](#nexmo)
 - [Install](#install)
-- [Features](#features)
+- [Status](#status)
 - [Examples](#examples)
   - [Create a new client](#create-a-new-client)
   - [Get country number is in](#get-country-number-is-in)
@@ -12,12 +17,6 @@
 - [Testing](#testing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# nexmo
-An idiomatic Go [nexmo](https://nexmo.com) library
-
-
-[![GoDoc](https://godoc.org/github.com/ammario?status.svg)](https://godoc.org/github.com/ammario/nexmo)
 
 # Install
 
